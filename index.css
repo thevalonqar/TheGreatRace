@@ -7,15 +7,28 @@
     index.css
 */
 
-/*body {
-  position: relative;
-}*/
+body {
+  background-image: url("background.jpg");
+}
 
 #kirby {
   position: absolute;
 }
 
+#kirbyImg, #poppyImg{
+  width: 200px;
+  height: auto;
+}
+
 #poppy {
   position: absolute;
   top: 400px;
+}
+
+#startButton{
+  margin: 25px;
+}
+
+#startButton:hover {
+  box-shadow: 5px 5px 5px black;
 }

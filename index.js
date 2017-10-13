@@ -1,14 +1,18 @@
+
+
+
 var k = document.getElementById('kirby');
 var p = document.getElementById('poppy');
-var posK = 0;
-var posP = 0;
+
 
 
 function race() {
+  var posK = 0;
+  var posP = 0;
   var timer = setInterval(frame, 100);
 
   function frame (){
-    if (posK == 200 || posP == 200 ){
+    if (posK > 500 || posP > 500 ){
       clearInterval(timer);
     } else {
       var rdmK = Math.floor(Math.random() * 20);
