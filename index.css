@@ -1,0 +1,21 @@
+/*
+
+    The Great Race
+    CIS 131 - W01
+
+    James McAdoo
+    index.css
+*/
+
+/*body {
+  position: relative;
+}*/
+
+#kirby {
+  position: absolute;
+}
+
+#poppy {
+  position: absolute;
+  top: 400px;
+}
