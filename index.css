@@ -15,8 +15,12 @@ body {
   position: absolute;
 }
 
-#kirbyImg, #poppyImg{
+#kirbyImg, #poppyImg, #kirbyWinsImg{
   width: 200px;
+  height: auto;
+}
+#poppyWinsImg{
+  width: 300px;
   height: auto;
 }
 
@@ -24,7 +28,10 @@ body {
   position: absolute;
   top: 400px;
 }
-
 #startButton{
   margin: 25px;
+}
+#startButtonBW{
+  margin: 25px;
+  filter: grayscale(100%);
 }
