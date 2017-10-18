@@ -28,7 +28,3 @@ body {
 #startButton{
   margin: 25px;
 }
-
-#startButton:hover {
-  box-shadow: 5px 5px 5px black;
-}

@@ -14,6 +14,7 @@ function race() {
   function frame (){
     if (posK > 500 || posP > 500 ){
       clearInterval(timer);
+      posK > posP ? alert('kirby') : alert('poppy');
     } else {
       var rdmK = Math.floor(Math.random() * 20);
       var rdmP = Math.floor(Math.random() * 20);
